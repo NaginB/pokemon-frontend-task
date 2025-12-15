@@ -1,0 +1,21 @@
+.pokemon-card-img {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-input {
+  outline: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: white;
+  border-radius: 10px;
+}
+
+select {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #777777;
+  font-size: 14px;
+}
