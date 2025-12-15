@@ -1,10 +1,8 @@
-import { useMemo } from "react";
-
 interface Prop {
   pokemon: any;
   index: number;
 }
-const PokemonCard = ({ pokemon, index }: Prop) => {
+const PokemonCard = ({ pokemon }: Prop) => {
   return (
     <div className="w-max-[320px] w-full !mx-auto relative rounded !p-2 flex flex-col h-[340px] bg-[#74CB48]">
       <div className="flex-1">
